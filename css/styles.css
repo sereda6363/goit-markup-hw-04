@@ -176,6 +176,10 @@ body {
   background-color: var(--hero-bg-color);
   text-align: center;
   padding: 200px 0px 200px 0px;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: max(1600px);
 }
 
 .hero-title {
@@ -220,6 +224,17 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.hero-icon-link {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-item {
