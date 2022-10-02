@@ -183,7 +183,7 @@ body {
     url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 1600px;
 }
 
 .hero-title {
@@ -239,6 +239,76 @@ body {
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
+}
+
+.hero-team-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-team-icon-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.hero-team-icon-link:hover,
+.hero-team-icon-link:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.team-icon {
+  fill: currentColor;
+}
+
+.hero-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.hero-clients {
+  padding: 94px 0px 94px 0px;
+}
+.hero-clients-list {
+  display: flex;
+}
+
+.hero-clients-list .hero-clients-icon-list + .hero-clients-icon-list {
+  margin-left: 30px;
+}
+
+.hero-clients-icon-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.hero-clients-icon-link:hover,
+.hero-clients-icon-link:focus {
+  color: #2196f3;
+  background-color: #fff;
+  border: 1px solid #2196f3;
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 .hero-item {
@@ -335,6 +405,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--paragraph-text-color);
+  margin-bottom: 16px;
 }
 
 /* ----------------FOOTER--------------- */
