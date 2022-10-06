@@ -160,8 +160,8 @@ body {
 }
 
 .header-email {
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -594,6 +594,7 @@ body {
 
 .portfolio-link {
   display: block;
+  text-decoration: none;
 }
 
 .portfolio-link:hover,
